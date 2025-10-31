@@ -85,7 +85,7 @@ const Crypto = () => {
       id: 1,
       title: "Cattle Ranch Investment - OutBack Australia",
       location: "Outback, Australia",
-      image: "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1646170030272-7b1331d5d0d9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhdHRsZSUyMHJhbmNofGVufDB8fDB8fHwwlash.com/photo-1516467508483-a7212febe31a?w=400&h=300&fit=crop",
       minInvestment: "0.5",
       expectedROI: "18%",
       funded: 63,
@@ -95,9 +95,9 @@ const Crypto = () => {
     },
     {
       id: 2,
-      title: "Cocoa Plantation - Ondo State",
+      title: "Wheat Plantation - Ngurra",
       location: "Ngurra, Australia",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+      image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fphotos%2Fwheat-field-y4xZxzN754M&psig=AOvVaw3vC-56k-YV6DpbPWBZndjp&ust=1759304142126000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCxo439_48DFQAAAAAdAAAAABAE",
       minInvestment: "0.3",
       expectedROI: "22%",
       funded: 78,
@@ -126,19 +126,19 @@ const Crypto = () => {
       expectedROI: "14%",
       funded: 67,
       timeLeft: "18 days",
-      category: "trees",
+      category: "land",
       assetId: "plantain-crossriver-004"
     },
     {
       id: 5,
       title: "Coconut Plantation - Outback, Australia",
       location: "Australia",
-      image: "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=300&fit=crop",
+      image: "https://unsplash.com/photos/herd-of-sheep-on-meadow-XP3ljS34zcI",
       minInvestment: "0.4",
       expectedROI: "19%",
       funded: 52,
       timeLeft: "30 days",
-      category: "trees",
+      category: "sustainability",
       assetId: "coconut-lagos-005"
     },
     {
@@ -567,9 +567,7 @@ Your investment is now secured on the Hedera blockchain!`);
               <a href="#" className="text-gray-600 hover:text-yellow-600 transition-colors flex items-center hover:scale-105 transform">
                 <span className="mr-2 text-xl">🏪</span>Marketplace
               </a>
-              <a href="#" className="text-gray-600 hover:text-yellow-600 transition-colors flex items-center hover:scale-105 transform">
-                <span className="mr-2 text-xl">📊</span>Portfolio
-              </a>
+             
             </div>
             
             <div className="flex items-center space-x-4">
@@ -647,7 +645,7 @@ Your investment is now secured on the Hedera blockchain!`);
                 <span className="text-5xl animate-spin" style={{animationDuration: '4s'}}>🌟</span>
               </div>
               <div className="text-gray-800 flex items-center justify-center gap-6">
-                <span className="text-5xl animate-pulse">🇳🇬</span>
+                <span className="text-5xl animate-pulse">🇦🇺</span>
                 Agricultural Future
                 <span className="text-5xl animate-bounce" style={{animationDelay: '0.5s'}}>💎</span>
               </div>
@@ -759,7 +757,7 @@ Your investment is now secured on the Hedera blockchain!`);
               <h3 className="text-4xl font-bold mb-4 flex items-center gap-3">
                 <span className="text-3xl animate-spin" style={{animationDuration: '3s'}}>🌟</span>
                 <span className="bg-gradient-to-r from-yellow-600 to-green-600 bg-clip-text text-transparent">
-                  Featured Nigerian Investments
+                  Featured Australian Investments
                 </span>
               </h3>
               <p className="text-xl text-gray-600">From cattle ranching to cocoa plantations - blockchain secured</p>
@@ -938,8 +936,8 @@ Your investment is now secured on the Hedera blockchain!`);
             
             <div className="text-center p-8 bg-white/70 backdrop-blur rounded-3xl border-2 border-green-200 shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
               <div className="text-6xl mb-6 animate-pulse">🌍</div>
-              <h4 className="text-2xl font-bold mb-4 text-gray-800">Nigerian Focus</h4>
-              <p className="text-gray-600">Support sustainable agriculture and empower farming communities across Nigeria</p>
+              <h4 className="text-2xl font-bold mb-4 text-gray-800">Australian Focus</h4>
+              <p className="text-gray-600">Support sustainable agriculture and empower farming communities across Australia</p>
             </div>
             
             <div className="text-center p-8 bg-white/70 backdrop-blur rounded-3xl border-2 border-blue-200 shadow-xl hover:shadow-2xl transition-all transform hover:scale-105">
@@ -1258,13 +1256,13 @@ Your investment is now secured on the Hedera blockchain!`);
             
             <div>
               <h5 className="font-bold mb-4 flex items-center">
-                <span className="text-xl mr-2">🇳🇬</span>
-                Nigerian Assets
+                <span className="text-xl mr-2">AU</span>
+                Australian Assets
               </h5>
               <ul className="space-y-2 text-gray-300">
                 <li>🐄 Cattle Ranching</li>
-                <li>🍫 Cocoa Plantations</li>
-                <li>🥔 Cassava Processing</li>
+                <li>🍫 grapes and dates Plantation</li>
+                <li>🥔 Wheat/rice</li>
                 <li>📱 QR Traceability</li>
               </ul>
             </div>

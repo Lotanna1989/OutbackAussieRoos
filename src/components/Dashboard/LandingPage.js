@@ -156,7 +156,7 @@ const LandingPage = () => {
           </button>
           <button 
             className="px-4 py-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-green-500/25 text-sm"
-            onClick={() => navigateTo('/Crypto')}
+            onClick={() => navigateTo('/OutbackAgriInvestment')}
           >
             Wildlife NFTs
           </button>
@@ -168,19 +168,16 @@ const LandingPage = () => {
             Ngurra Game
           </button>
 
-            <button 
-            className="px-4 py-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-green-500/25 text-sm"
-            onClick={() => navigateTo('/ArtInvest')}
-          >
-            Art Invest
-          </button>
+           
 
           <button 
-            className="px-4 py-2 rounded-full bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 transition-all duration-300 shadow-lg hover:shadow-blue-500/25 text-sm"
-            onClick={() => navigateTo('/bunjil-ai')}
+            className="px-4 py-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-green-500/25 text-sm"
+            onClick={() => navigateTo('/OutbackPhotoMarketplace')}
           >
-            Bunjil AI
+            Agro Solana 
           </button>
+
+          
         </div>
       </nav>
 
@@ -221,18 +218,23 @@ const LandingPage = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button 
-                className="group px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full font-semibold hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:scale-105 flex items-center justify-center"
-                onClick={() => navigateTo('/outback')}
-              >
-                Enter Digital Country
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-              </button>
+               <a
+  
+                      href="https://bunjil-1d98b.web.app/"
+                    className="group px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full font-semibold hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:scale-105 flex items-center justify-center"
+   >
+                    Enter Digital Country
+                    <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+             </a>
               
-              <button className="group px-8 py-4 bg-white/10 backdrop-blur-sm rounded-full font-semibold hover:bg-white/20 transition-all duration-300 border border-white/20 flex items-center justify-center">
-                Watch Bunjil Demo
-                <Play className="ml-2 group-hover:scale-110 transition-transform" size={20} />
-              </button>
+              <a
+  
+                      href="https://vimeo.com/1123294472/"
+                    className="group px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full font-semibold hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:scale-105 flex items-center justify-center"
+   >
+                    Lil Walkthrough Demo of Bunjil Ngurra
+                    <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+             </a>
             </div>
           </div>
 
@@ -397,17 +399,20 @@ const LandingPage = () => {
               sustainable farming insights, and blockchain-secured digital assets.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
-                className="group px-12 py-4 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full font-bold text-lg hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:scale-105 flex items-center justify-center"
-                onClick={() => navigateTo('/outback')}
-              >
-                Start Exploring
-                <Sparkles className="ml-3 group-hover:rotate-12 transition-transform" size={24} />
-              </button>
+               <a
+  
+                      href="https://bunjil-1d98b.web.app/"
+                    className="group px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full font-semibold hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:scale-105 flex items-center justify-center"
+   >
+                    Start Exploring
+                    <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+             </a>
+
+             
               
               <button 
                 className="group px-12 py-4 bg-gradient-to-r from-green-500 to-emerald-600 rounded-full font-bold text-lg hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-green-500/25 hover:scale-105 flex items-center justify-center"
-                onClick={() => navigateTo('/wildlife-nfts')}
+                onClick={() => navigateTo('/OutbackAgriInvestment')}
               >
                 Discover Wildlife
                 <Eye className="ml-3 group-hover:scale-110 transition-transform" size={24} />

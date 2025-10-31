@@ -34,7 +34,7 @@ const AgroRithmGame = () => {
       id: i + 1,
       x: Math.random() * 80 + 10,
       y: Math.random() * 80 + 10,
-      owner: i < 4 ? 'Fulani Herder A' : 'Fulani Herder B',
+      owner: i < 4 ? 'Stockman Drover Herder A' : 'Stockman Drover Herder B',
       inRestrictedZone: false
     }));
     
@@ -328,7 +328,7 @@ const AgroRithmGame = () => {
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
               <h3 className="text-lg font-bold text-white mb-3 flex items-center">
                 <Globe className="mr-2 text-purple-400" size={18} />
-                Crypto Investment
+                International Crypto Investment
               </h3>
               <button
                 onClick={() => setShowInvestment(!showInvestment)}
@@ -347,16 +347,34 @@ const AgroRithmGame = () => {
                     🇳🇱 Netherlands - $5,000
                   </button>
                   <button
-                    onClick={() => addInvestment(7500, 'Germany')}
+                    onClick={() => addInvestment(10500, 'Germany')}
                     className="w-full bg-yellow-500 text-white px-3 py-2 rounded text-sm hover:bg-yellow-600"
                   >
-                    🇩🇪 Germany - $7,500
+                    🇩🇪 Germany - $10,500
                   </button>
                   <button
-                    onClick={() => addInvestment(10000, 'Canada')}
+                    onClick={() => addInvestment(30000, 'Canada')}
                     className="w-full bg-red-500 text-white px-3 py-2 rounded text-sm hover:bg-red-600"
                   >
-                    🇨🇦 Canada - $10,000
+                    🇨🇦 Canada - $30,000
+                  </button>
+                   <button
+                    onClick={() => addInvestment(100000, 'USA')}
+                    className="w-full bg-red-500 text-white px-3 py-2 rounded text-sm hover:bg-red-600"
+                  >
+                     USA - $100,000
+                  </button>
+                   <button
+                    onClick={() => addInvestment(50000, 'UK')}
+                    className="w-full bg-red-500 text-white px-3 py-2 rounded text-sm hover:bg-red-600"
+                  >
+                    UK - $50,000
+                  </button>
+                   <button
+                    onClick={() => addInvestment(10000, 'New-Zealand')}
+                    className="w-full bg-red-500 text-white px-3 py-2 rounded text-sm hover:bg-red-600"
+                  >
+                    New-Zealand - $10,000
                   </button>
                 </div>
               )}
@@ -446,7 +464,7 @@ const AgroRithmGame = () => {
             <div>
               <h3 className="text-lg font-bold text-white mb-3 flex items-center">
                 <TrendingUp className="mr-2 text-green-400" size={18} />
-                Hedera Blockchain Logs
+                Solana Blockchain Logs
               </h3>
               <div className="bg-black/20 rounded-lg p-3 h-64 overflow-y-auto font-mono text-xs">
                 {gameState.blockchain_logs.length === 0 ? (

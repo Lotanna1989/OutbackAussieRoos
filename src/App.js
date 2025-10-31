@@ -8,6 +8,8 @@ import Login from './components/Auth/Login';
 import Crypto from './components/Auth/Crypto';
 import InvestmentInterface from './components/Auth/investmentInterface';
 import ArtInvest from './components/Auth/ArtInvest';
+import OutbackPhotoMarketplace from './components/Auth/OutbackPhotoMarketplace';
+import OutbackAgriInvestment from './components/Auth/OutbackAgriInvestment';
 
 import AdminDashboard from './components/Dashboard/AdminDashboard';
 import HerderDashboard from './components/Dashboard/HerderDashboard';
@@ -36,6 +38,8 @@ const App = () => (
     <Route path="/investment/:id" element={<InvestmentInterface />} />
     <Route path="/investment-interface/:id" element={<InvestmentInterface />} />
     <Route path="/ArtInvest" element={<ArtInvest />} />
+    <Route path="/OutbackPhotoMarketplace" element={<OutbackPhotoMarketplace />} />
+    <Route path="/OutbackAgriInvestment" element={<OutbackAgriInvestment />} />
 
     <Route path="/admin-dashboard" element={<AdminDashboardWithUser />} />
     <Route path="/herder-dashboard" element={<HerderDashboardWithUser />} />
