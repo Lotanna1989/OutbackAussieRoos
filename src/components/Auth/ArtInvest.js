@@ -988,7 +988,7 @@ High-resolution download will begin shortly.`);
           <div className="border-t border-gray-700 pt-8 flex items-center justify-between">
             <p className="text-gray-400">© 2024 Outback Visions. Celebrating Australia's remote beauty through photography.</p>
             <div className="flex items-center space-x-4">
-              <span className="text-gray-400">Powered by Ethereum</span>
+              <span className="text-gray-400">Powered by Solana Superteam. The Best Blockchain</span>
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@ const LandingPage = () => {
     },
     {
       "icon": <Shield className="w-8 h-8" />,
-      "title": "Hedera Blockchain",
+      "title": "Solana Blockchain",
       "description": "Carbon-negative blockchain for secure, sustainable digital asset management",
       "color": "from-purple-500 to-pink-500"
     },
@@ -161,6 +161,13 @@ const LandingPage = () => {
             Wildlife NFTs
           </button>
 
+            <button 
+            className="px-4 py-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-green-500/25 text-sm"
+            onClick={() => navigateTo('/')}
+          >
+           ANZ Cross Border Pay
+          </button>
+
            <button 
             className="px-4 py-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-green-500/25 text-sm"
             onClick={() => navigateTo('/AgroRithmGame')}
@@ -174,7 +181,7 @@ const LandingPage = () => {
             className="px-4 py-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-green-500/25 text-sm"
             onClick={() => navigateTo('/OutbackPhotoMarketplace')}
           >
-            Agro Solana 
+            Outback Photo Solana 
           </button>
 
           
@@ -220,7 +227,7 @@ const LandingPage = () => {
             <div className="flex flex-col sm:flex-row gap-4">
                <a
   
-                      href="https://bunjil-1d98b.web.app/"
+                      href="https://ngurra-bu.web.app/"
                     className="group px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full font-semibold hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:scale-105 flex items-center justify-center"
    >
                     Enter Digital Country
@@ -401,7 +408,7 @@ const LandingPage = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                <a
   
-                      href="https://bunjil-1d98b.web.app/"
+                      href="https://ngurra-bu.web.app/"
                     className="group px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600 rounded-full font-semibold hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-amber-500/25 hover:scale-105 flex items-center justify-center"
    >
                     Start Exploring
